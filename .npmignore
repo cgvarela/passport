@@ -1,23 +1,11 @@
+CONTRIBUTING.md
 Makefile
-README.md
-build/
+SPONSORS.md
 docs/
 examples/
 reports/
-support/
 test/
 
-# Node.js
-.npmignore
-node_modules/
-npm-debug.log
-
-# Mac OS X
-.DS_Store
-
-# Git
-.git*
-
-# Utilities
+.github/
 .jshintrc
 .travis.yml

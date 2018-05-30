@@ -1,6 +1,6 @@
 {
   "name": "passport",
-  "version": "0.2.1",
+  "version": "0.4.0",
   "description": "Simple, unobtrusive authentication for Node.js.",
   "keywords": [
     "express",
@@ -22,10 +22,11 @@
   "bugs": {
     "url": "http://github.com/jaredhanson/passport/issues"
   },
+  "license": "MIT",
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
+      "url": "http://opensource.org/licenses/MIT"
     }
   ],
   "main": "./lib",
@@ -34,11 +35,12 @@
     "pause": "0.0.1"
   },
   "devDependencies": {
-    "mocha": "1.x.x",
-    "chai": "1.x.x",
+    "make-node": "0.3.x",
+    "mocha": "2.x.x",
+    "chai": "2.x.x",
     "chai-connect-middleware": "0.3.x",
     "chai-passport-strategy": "0.2.x",
-    "proxyquire": "0.5.x"
+    "proxyquire": "1.4.x"
   },
   "engines": {
     "node": ">= 0.4.0"
